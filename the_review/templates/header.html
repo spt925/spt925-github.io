@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<html>
+   <head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="shortcut icon" href="assets/clapper.png" type="image/x-icon"/>
+      <title>	
+     	
+			<?php 
+            include('includes/functions.php');
+				if (defined('TITLE')) {
+					print TITLE;
+				} else {
+					print 'The Review';				
+				}
+			?>
+		</title>
+       <link rel="stylesheet" href="css/styles.css" />
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+   
+   <!-- The Review
+		Author:Samit Patel, Marie Wright, Jillian McGillis
+		Date: 11/13/17
+	-->
+
+   <body>
+   
+     <nav class="navbar navbar-inverse">
+	   <div class="container-fluid">
+	   <div class="navbar-header">
+	     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		   <span class="icon-bar"></span>
+		   <span class="icon-bar"></span>
+		   <span class="icon-bar"></span>                        
+		 </button>
+	    <a class="navbar-brand" href="home.php"><img src="assets/the_review.png" alt="The Review Logo"/><a href="home.php"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home.php">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="movies.php">Movies <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+		  	<li><a href="bad.php">A Bad Moms Christmas</a></li>
+            <li><a href="beauty.php">Beauty and the Beast</a></li>
+            <li><a href="doctor.php">Doctor Strange</a></li>
+			<li><a href="emoji.php">Emoji Movie</a></li>
+			<li><a href="flatliners.php">Flatliners</a></li>
+			<li><a href="friend.php">Friend Request</a></li>
+		    <li><a href="ghost.php">Ghost in the Shell</a></li>
+            <li><a href="girls.php">Girls Trip</a></li>
+            <li><a href="it.php">IT</a></li>
+			<li><a href="john.php">John Wick Chapter 2</a></li>
+            <li><a href="logan.php">Logan</a></li>
+            <li><a href="moana.php">Moana</a></li>
+			<li><a href="rogue.php">Rogue One: A Star Wars Story</a></li>
+            <li><a href="trolls.php">Trolls</a></li>
+            <li><a href="zootopia.php">Zootopia</a></li>
+
+          </ul>
+        </li>
+        <li><a href="us.php">About</a></li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="login.php"><span class="glyphicon glyphicon-log-in">Login</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+   <div class="container">
+		 <!-- Begin php content -->

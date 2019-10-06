@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, header, section, aside, footer, nav {
+	display: block;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+		
+}
+
+body{
+	font-family: Gill Sans, Myriad Pro, Verdana, Helvetica, Arial, sans-serif;
+	height: auto;	
+	background-image: url(assets/theater.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-color: black;
+	}
+
+form{
+	width: 50%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-family: Baskerville, Bell MT, Bodoni MT, Goudy Old Style, serif;
+	font-size: 1.5em;
+	color: gray;
+}
+
+.container {
+	width: 70%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	font-family: Gill Sans, Myriad Pro, Verdana, Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	color: white;
+}
+	
+h2 {
+    margin-top: 15px;
+	font-family: Baskerville, Bell MT, Bodoni MT, Goudy Old Style, serif;
+}
+
+.error {
+	font-family: Monotype Corsiva, Lucida Calligraphy, script;
+	color: #B60823;
+	font-size: 2em;
+	
+}
+
+footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background: black;
+	font-family: Gill Sans, Myriad Pro, Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+}
+
+.tagline {
+	font-family: Baskerville, Bell MT, Bodoni MT, Goudy Old Style, serif;
+	font-size: 3em;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #B60823;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+	
